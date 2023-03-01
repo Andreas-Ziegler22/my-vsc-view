@@ -1,5 +1,10 @@
+import { Header } from "./Header";
 import "./Layout.css";
 
 export function Layout() {
-  return <div>hi</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }

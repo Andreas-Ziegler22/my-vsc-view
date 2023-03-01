@@ -1,0 +1,23 @@
+.left-btn {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.btn {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 9999px;
+  border: 0;
+}
+
+.bg-red {
+  background: #ed6a5e;
+}
+
+.bg-yellow {
+  background: #f4bf4f;
+}
+
+.bg-green {
+  background: #61c554;
+}
