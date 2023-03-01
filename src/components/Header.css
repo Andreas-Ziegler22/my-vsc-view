@@ -1,6 +1,17 @@
+/* header container */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  background: #232135;
+}
+
+/* left-side buttons */
 .left-btn {
   display: flex;
   gap: 0.75rem;
+  box-sizing: border-box;
 }
 
 .btn {

@@ -1,4 +1,4 @@
-import { Sidebar } from "lucide-react";
+import { LayoutGrid, Sidebar } from "lucide-react";
 import { ArrowsInSimple, Minus, X } from "phosphor-react";
 import "./Header.css";
 
@@ -26,6 +26,9 @@ export function Header() {
         </a>
         <a href="">
           <Sidebar className="rotate-right" />
+        </a>
+        <a href="">
+          <LayoutGrid />
         </a>
       </div>
     </div>
