@@ -56,3 +56,9 @@
 .right-btn a svg {
   color: #e0def2;
 }
+svg.rotate-down {
+  rotate: 270deg;
+}
+svg.rotate-right {
+  rotate: 180deg;
+}
