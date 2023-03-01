@@ -1,13 +1,20 @@
 import { Sidebar } from "lucide-react";
+import { ArrowsInSimple, Minus, X } from "phosphor-react";
 import "./Header.css";
 
 export function Header() {
   return (
     <div className="header-container">
       <div className="left-btn">
-        <button type="button" className="btn bg-red"></button>
-        <button type="button" className="btn bg-yellow"></button>
-        <button type="button" className="btn bg-green"></button>
+        <button type="button" className="btn bg-red">
+          <X className="icons-left" />
+        </button>
+        <button type="button" className="btn bg-yellow">
+          <Minus className="icons-left" />
+        </button>
+        <button type="button" className="btn bg-green">
+          <ArrowsInSimple className="icons-left" />
+        </button>
       </div>
       <div>Welcome</div>
       <div className="right-btn">
