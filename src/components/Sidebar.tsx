@@ -1,5 +1,12 @@
 import { Bug, Files, Monitor, Puzzle, Search, Settings } from "lucide-react";
-import { GitBranch, Lightning, PawPrint, Tree, User } from "phosphor-react";
+import {
+  DotsThree,
+  GitBranch,
+  Lightning,
+  PawPrint,
+  Tree,
+  User,
+} from "phosphor-react";
 import "./Sidebar.css";
 
 export function Sidebar() {
@@ -32,6 +39,9 @@ export function Sidebar() {
         </a>
         <a href="">
           <Lightning size={40} />{" "}
+        </a>
+        <a href="">
+          <DotsThree size={40} />
         </a>
       </div>
       <div className="side-group2 side-flex">

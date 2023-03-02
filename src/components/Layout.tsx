@@ -1,3 +1,4 @@
+import { Footer } from "./Footer";
 import { Header } from "./Header";
 import "./Layout.css";
 import { Sidebar } from "./Sidebar";
@@ -7,6 +8,7 @@ export function Layout() {
     <div>
       <Header />
       <Sidebar />
+      <Footer />
     </div>
   );
 }
