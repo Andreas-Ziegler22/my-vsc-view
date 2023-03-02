@@ -22,16 +22,16 @@ export function Footer() {
       </div>
       <div className="right-footer">
         <a href="">
-          <ApplePodcastsLogo />
-          Go Live
+          <ApplePodcastsLogo size={20} className="bg-color" />
+          <span> Go Live</span>
         </a>
         <a href="">
-          <ClockCounterClockwise />
-          39m
+          <ClockCounterClockwise size={20} className="bg-color" />
+          <span> 39m</span>
         </a>
-        <ClockCounterClockwise />
-        <UserCog />
-        <Bell />
+        <ClockCounterClockwise size={20} className="bg-color" />
+        <UserCog size={20} className="bg-color" />
+        <Bell size={20} className="bg-color" />
       </div>
     </div>
   );
