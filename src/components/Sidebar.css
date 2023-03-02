@@ -1,13 +1,19 @@
 .sidebar-container {
   height: 92vh;
-  width: 3rem;
+  width: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid orange;
+  padding: 10px;
+  background: #232135;
+  color: #8f8ca8;
 }
 .side-flex {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+svg.bg-color {
+  color: #8f8ca8;
+  text-decoration: none;
 }

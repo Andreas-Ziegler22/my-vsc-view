@@ -14,34 +14,34 @@ export function Sidebar() {
     <div className="sidebar-container">
       <div className="side-group1 side-flex">
         <a href="">
-          <Files size={40} />
+          <Files size={40} className="bg-color" />
         </a>
         <a href="">
-          <Search size={40} />
+          <Search size={40} className="bg-color" />
         </a>
         <a href="">
-          <GitBranch size={40} />
+          <GitBranch size={40} className="bg-color" />
         </a>
         <a href="">
-          <Bug size={40} />
+          <Bug size={40} className="bg-color" />
         </a>
         <a href="">
-          <Puzzle size={40} />
+          <Puzzle size={40} className="bg-color" />
         </a>
         <a href="">
-          <Monitor size={40} />
+          <Monitor size={40} className="bg-color" />
         </a>
         <a href="">
-          <Tree size={40} />
+          <Tree size={40} className="bg-color" />
         </a>
         <a href="">
-          <PawPrint size={40} />
+          <PawPrint size={40} className="bg-color" />
         </a>
         <a href="">
-          <Lightning size={40} />{" "}
+          <Lightning size={40} className="bg-color" />{" "}
         </a>
         <a href="">
-          <DotsThree size={40} />
+          <DotsThree size={40} className="bg-color" />
         </a>
       </div>
       <div className="side-group2 side-flex">
