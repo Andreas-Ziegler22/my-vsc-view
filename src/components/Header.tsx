@@ -19,16 +19,16 @@ export function Header() {
       <div>Welcome</div>
       <div className="right-btn">
         <a href="">
-          <Sidebar className="rotate-left" />
+          <Sidebar className="rotate-left" size={20} />
         </a>
         <a href="">
-          <Sidebar className="rotate-down" />
+          <Sidebar className="rotate-down" size={20} />
         </a>
         <a href="">
-          <Sidebar className="rotate-right" />
+          <Sidebar className="rotate-right" size={20} />
         </a>
         <a href="">
-          <LayoutGrid />
+          <LayoutGrid className="rotate" size={20} />
         </a>
       </div>
     </div>
