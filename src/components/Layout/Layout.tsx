@@ -1,7 +1,7 @@
-import { Footer } from "./Footer";
-import { Header } from "./Header";
+import { Footer } from "../Footer/Footer";
+import { Header } from "../Header/Header";
 import "./Layout.css";
-import { Sidebar } from "./Sidebar";
+import { Sidebar } from "../../Sidebar/Sidebar";
 
 export function Layout() {
   return (
