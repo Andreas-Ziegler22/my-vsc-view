@@ -6,7 +6,8 @@
   /* background: #232135; */
   background: #2a273f;
   color: #8f8ca8;
-  border: 3px solid red;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 .left-footer {
   display: flex;
