@@ -1,0 +1,15 @@
+.main-content-container {
+  display: flex;
+  flex-direction: row;
+}
+.article-container {
+  border: 3px solid bisque;
+  display: flex;
+}
+.article-left {
+  border: 3px solid orchid;
+}
+
+.article-right {
+  border: 3px solid orchid;
+}

@@ -1,17 +1,15 @@
 import { Footer } from "../Footer/Footer";
 import { Header } from "../Header/Header";
 import "./Layout.css";
-import { Sidebar } from "../../Sidebar/Sidebar";
+
+import { Content } from "../Content/Content";
 
 export function Layout() {
   return (
     <div className="main">
       <Header />
-      <div className="main-content">
-        <article></article>
-        <article></article>
-      </div>
-      <Sidebar />
+      <Content />
+
       <Footer />
     </div>
   );
