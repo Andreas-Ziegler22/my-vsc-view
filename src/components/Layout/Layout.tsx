@@ -7,7 +7,10 @@ export function Layout() {
   return (
     <div className="main">
       <Header />
-      <div className="main-content"></div>
+      <div className="main-content">
+        <article></article>
+        <article></article>
+      </div>
       <Sidebar />
       <Footer />
     </div>

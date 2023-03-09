@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-.main {
-  margin: 30px;
+/* .main {
+  position: absolute;
+  width: 100%;
+
   display: grid;
-}
+} */
