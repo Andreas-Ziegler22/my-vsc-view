@@ -1,4 +1,5 @@
 .main-content-container {
+  background: #232135;
   display: flex;
   flex-direction: row;
 }
@@ -8,6 +9,8 @@
 }
 .article-left {
   border: 3px solid orchid;
+  color: #fff;
+  padding: 50px;
 }
 
 .article-right {
