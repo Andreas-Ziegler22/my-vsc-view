@@ -7,15 +7,3 @@
   border: 3px solid bisque;
   display: flex;
 }
-.article-left {
-  text-align: center;
-  border: 3px solid orchid;
-  color: #8f8ca8;
-  width: 40vw;
-}
-
-.article-right {
-  color: #8f8ca8;
-  border: 3px solid orchid;
-  width: 50vw;
-}

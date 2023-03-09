@@ -1,3 +1,5 @@
+import "./Article-right.css";
+
 export function ArticleRight() {
   return (
     <div className="article-right">

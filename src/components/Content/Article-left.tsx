@@ -1,4 +1,5 @@
-import "./Content.css";
+import "./Article-left.css";
+
 export function ArticleLeft() {
   return (
     <div className="article-left">

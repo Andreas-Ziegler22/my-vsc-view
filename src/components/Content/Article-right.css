@@ -1,0 +1,8 @@
+.article-right {
+  color: #8f8ca8;
+  border: 3px solid orchid;
+  width: 50vw;
+}
+.article-right li {
+  list-style: none;
+}

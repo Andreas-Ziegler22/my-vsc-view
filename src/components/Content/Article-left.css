@@ -1,0 +1,12 @@
+.article-left {
+  text-align: center;
+  border: 3px solid orchid;
+  color: #8f8ca8;
+  width: 40vw;
+}
+.flex-list li {
+  list-style: none;
+}
+.gitRepo li {
+  list-style: none;
+}
