@@ -1,5 +1,6 @@
 import { Sidebar } from "../../Sidebar/Sidebar";
 import { ArticleLeft } from "./Article-left";
+import { ArticleRight } from "./Article-right";
 import "./Content.css";
 
 export function Content() {
@@ -11,12 +12,7 @@ export function Content() {
       <Sidebar />
       <article className="article-container">
         <ArticleLeft />
-        <div className="article-right">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            sequi nisi vero repellat a ullam!
-          </p>
-        </div>
+        <ArticleRight />
       </article>
     </div>
   );
