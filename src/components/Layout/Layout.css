@@ -4,9 +4,17 @@
   box-sizing: border-box;
 }
 
-/* .main {
-  position: absolute;
-  width: 100%;
-
-  display: grid;
-} */
+.main {
+  background: rgb(127, 127, 213);
+  background: linear-gradient(
+    90deg,
+    rgba(127, 127, 213, 1) 0%,
+    rgba(134, 168, 231, 1) 50%,
+    rgba(145, 234, 228, 1) 100%
+  );
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
