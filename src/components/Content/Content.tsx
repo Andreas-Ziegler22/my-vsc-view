@@ -13,6 +13,7 @@ export function Content() {
       <article className="article-container">
         <ArticleLeft />
         <ArticleRight />
+        {/* <div className="button text">Show welcome page on startup</div> */}
       </article>
     </div>
   );
