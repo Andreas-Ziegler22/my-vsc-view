@@ -9,6 +9,8 @@
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
+/* footer left side */
+
 .left-footer {
   display: flex;
   flex-direction: row;
@@ -24,9 +26,10 @@
   gap: 0.25rem;
 }
 .infos-left-footer span {
-  font-size: 1rem;
+  margin: 0 0.3rem;
+  font-size: 1.35rem;
 }
-
+/* footer right side */
 .right-footer {
   display: flex;
   flex-direction: row;
@@ -35,6 +38,11 @@
   gap: 1rem;
 }
 .right-footer a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
   color: #8f8ca8;
   text-decoration: none;
 }
