@@ -1,11 +1,62 @@
 .article-left {
-  text-align: center;
-  border: 3px solid orchid;
+  padding: 5rem;
   color: #8f8ca8;
   width: 40vw;
+  border: 3px solid red;
 }
+.article-header {
+  border: 3px solid red;
+  margin: 1rem 0;
+  line-height: 3rem;
+}
+.article-header h1 {
+  font-size: 2.25rem;
+  font-weight: 200;
+  color: #e8e8e8;
+  word-spacing: -0.75rem;
+}
+.article-header p {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.flex-list {
+  margin-top: 2rem;
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flex-list li:first-child {
+  margin-bottom: 1rem;
+  color: #e8e8e8;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+/* .Li-title {
+  color: #e8e8e8;
+  font-size: 1.2rem;
+  font-weight: 100;
+} */
+
 .flex-list li {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+/* repository */
+.gitRepo {
+  border: 3px solid red;
+  margin-top: 4rem;
+}
+.gitRepo li:first-child {
+  color: #e8e8e8;
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
 }
 .gitRepo li {
   list-style: none;

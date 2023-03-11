@@ -1,3 +1,4 @@
+import { FilePlus, FolderNotchOpen, GitBranch } from "phosphor-react";
 import "./Article-left.css";
 
 export function ArticleLeft() {
@@ -11,13 +12,23 @@ export function ArticleLeft() {
       <div className="flex-list">
         <ul>
           <li className="Li-title">Start</li>
-          <li>New File...</li>
-          <li>Open...</li>
-          <li>Clone Git Repository...</li>
+          <li>
+            <FilePlus size={25} />
+            New File...
+          </li>
+          <li>
+            <FolderNotchOpen size={25} />
+            Open...
+          </li>
+          <li>
+            <GitBranch size={25} />
+            Clone Git Repository...
+          </li>
         </ul>
       </div>
       <div className="gitRepo">
         <ul>
+          <li>Recent</li>
           <li>Git Repository-peojects</li>
           <li>Git Repository-peojects</li>
           <li>Git Repository-peojects</li>
