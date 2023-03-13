@@ -1,8 +1,28 @@
 .article-right {
   color: #8f8ca8;
-  border: 3px solid orchid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: rem;
   width: 50vw;
 }
 .article-right li {
+  margin-bottom: 1rem;
   list-style: none;
+  border-radius: 0.5rem;
+  gap: 4rem;
+}
+
+li:first-child {
+  margin-bottom: 1rem;
+  color: #e8e8e8;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.final-art {
+  padding: 1rem;
+  border-bottom: 0.25rem solid violet;
+  background-color: blueviolet;
+  gap: ;
 }
