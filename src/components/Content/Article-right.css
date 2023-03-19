@@ -6,13 +6,13 @@
   align-items: center;
   gap: rem;
   width: 50vw;
-  border: 3px solid green;
 }
 .article-right li {
   margin-bottom: 1rem;
   list-style: none;
   border-radius: 0.5rem;
   gap: 4rem;
+  font-weight: 200;
 }
 
 li:first-child {
@@ -20,6 +20,10 @@ li:first-child {
   color: #e8e8e8;
   font-size: 1.2rem;
   font-weight: 100;
+}
+li h6 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 .final-art {
   padding: 1rem;
@@ -31,13 +35,25 @@ li:first-child {
 li {
   color: #e8e8e8;
 }
-
-.final-art.bar {
+test {
   position: relative;
-  border-bottom: 1rem solid violet;
+  width: auto;
+  z-index: 1;
 }
-.bar {
-  border-bottom: 3px solid violet;
-  width: 100%;
-  z-index: 10;
+
+.final-art .bar {
+  height: 14px;
+
+  position: absolute;
+  border-bottom: 4px solid violet;
+}
+.update {
+  font-size: 0.7rem;
+  margin: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #fda898;
+  border-radius: 0.3rem;
+  border: none;
+  color: #000;
+  font-family: inherit;
 }
