@@ -45,7 +45,7 @@ test {
   height: 14px;
 
   position: absolute;
-  border-bottom: 4px solid violet;
+  border-bottom: 4px solid #a778be;
 }
 .update {
   font-size: 0.7rem;

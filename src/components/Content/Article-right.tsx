@@ -11,7 +11,7 @@ export function ArticleRight() {
           <span className="bar" style={{ width: "20%" }}></span>
         </li>
         <li className="final-art">
-          Lear the Fundamentals
+          Learn the Fundamentals
           <br />
           <span className="bar" style={{ width: "15%" }}></span>
         </li>
