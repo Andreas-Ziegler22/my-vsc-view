@@ -5,10 +5,7 @@ import "./Content.css";
 
 export function Content() {
   return (
-    <div
-      className="main-content-container"
-      style={{ border: "3px solid hotpink" }}
-    >
+    <div className="main-content-container">
       <Sidebar />
       <article className="article-container">
         <ArticleLeft />

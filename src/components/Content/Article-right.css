@@ -22,7 +22,14 @@ li:first-child {
 }
 .final-art {
   padding: 1rem;
-  border-bottom: 0.25rem solid violet;
-  background-color: blueviolet;
-  gap: ;
+
+  /* border-bottom: 0.25rem solid violet; */
+  /* background-color: blueviolet; */
+}
+.final-art.bar {
+  border-bottom: 1rem solid violet;
+}
+.bar {
+  border-bottom: 1rem solid violet;
+  width: 20px;
 }
