@@ -6,6 +6,7 @@
   align-items: center;
   gap: rem;
   width: 50vw;
+  border: 3px solid green;
 }
 .article-right li {
   margin-bottom: 1rem;
@@ -22,14 +23,21 @@ li:first-child {
 }
 .final-art {
   padding: 1rem;
+  background: rgba(232, 232, 232, 0.1);
 
   /* border-bottom: 0.25rem solid violet; */
   /* background-color: blueviolet; */
 }
+li {
+  color: #e8e8e8;
+}
+
 .final-art.bar {
+  position: relative;
   border-bottom: 1rem solid violet;
 }
 .bar {
-  border-bottom: 1rem solid violet;
-  width: 20px;
+  border-bottom: 3px solid violet;
+  width: 100%;
+  z-index: 10;
 }

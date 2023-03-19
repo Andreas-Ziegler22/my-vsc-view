@@ -8,7 +8,7 @@ export function ArticleRight() {
         <li className="final-art">
           <h6>Get started with VS Code</h6>
           <p>Discover the best customizations to make VS Code yours.</p>
-          <span className="bar" style={{ width: "25%" }}></span>
+          <span className="bar"></span>
         </li>
         <li className="final-art">Lear the Fundamentals</li>
         <li className="final-art">Boost your Productivity</li>
