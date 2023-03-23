@@ -1,6 +1,12 @@
-import { useEffect, useState } from "react";
+import { useFetch } from "../../hooks/useFetch";
+
+type Repository = {
+  full_name: string;
+  description: string;
+};
 
 export function Repos() {
+  const {} = useFetch;
   return (
     <div className="gitRepo">
       <ul>
