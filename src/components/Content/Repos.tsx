@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 export function Repos() {
   return (
     <div className="gitRepo">
