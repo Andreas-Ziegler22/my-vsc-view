@@ -5,7 +5,7 @@ Todo List
 
 - After I was stuck on my design I guess I found a solution mega exciting to implement it. ✅ solutions come when the problem are breaking into small steps
 - improve footer ✅
-  - git section need to work
+  - git section ✅ where is the bug
   - left content ✅
   - right content ✅
 

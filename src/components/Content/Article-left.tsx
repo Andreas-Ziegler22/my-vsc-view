@@ -1,5 +1,6 @@
 import { FilePlus, FolderNotchOpen, GitBranch } from "phosphor-react";
 import "./Article-left.css";
+import { Repos } from "./Repos";
 
 export function ArticleLeft() {
   return (
@@ -26,7 +27,7 @@ export function ArticleLeft() {
           </li>
         </ul>
       </div>
-      <div className="gitRepo">
+      {/* <div className="gitRepo">
         <ul>
           <li>Recent</li>
           <li>Git Repository-peojects</li>
@@ -35,8 +36,9 @@ export function ArticleLeft() {
           <li>Git Repository-peojects</li>
           <li>Git Repository-peojects</li>
           <li>More..</li>
-        </ul>
-      </div>
+        </ul> 
+      </div> */}
+      <Repos />
     </div>
   );
 }
