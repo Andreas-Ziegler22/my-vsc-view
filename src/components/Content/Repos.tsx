@@ -6,17 +6,17 @@ type Repository = {
 };
 
 export function Repos() {
-  const { data } = useFetch<Repository[]>(
-    "https://api.github.com/users/Andreas-Ziegler22"
+  const { data: repositories } = useFetch<Repository[]>(
+    "https://api.github.com/users/Andreas-Ziegler22/repos"
   );
   return (
     <div className="gitRepo">
       <ul>
         <li>Recent</li>
-        {data?.map((repo) => {
+        {repositories?.map((repo) => {
           return (
             <li key={repo.full_name}>
-              <strong>{repo.description}</strong>
+              <strong>{repo.full_name}</strong>
               <p>{repo.description}</p>
             </li>
           );
