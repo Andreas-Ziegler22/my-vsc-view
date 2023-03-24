@@ -7,7 +7,7 @@ export function ArticleLeft() {
     <div className="article-left">
       <div className="article-header">
         <h1>Visual Studio Code</h1>
-        <p>Ediding envolved</p>
+        <p>Editing envolved</p>
       </div>
 
       <div className="flex-list">
