@@ -7,7 +7,7 @@ type Repository = {
 
 export function Repos() {
   const { data: repositories } = useFetch<Repository[]>(
-    "https://api.github.com/users/Andreas-Ziegler22/repos"
+    "https://api.github.com/users/Andreas-Ziegler22/repos?sort=updated&direction=desc&per_page=5"
   );
   return (
     <div className="gitRepo">
@@ -17,7 +17,7 @@ export function Repos() {
           return (
             <li key={repo.full_name}>
               <strong>{repo.full_name}</strong>
-              <p>{repo.description}</p>
+              {/* <p>{repo.description}</p> */}
             </li>
           );
         })}
