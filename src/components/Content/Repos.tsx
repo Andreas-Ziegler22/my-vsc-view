@@ -1,7 +1,7 @@
 import { useFetch } from "../../hooks/useFetch";
 
 type Repository = {
-  full_name: string;
+  name: string;
   description: string;
 };
 
@@ -15,8 +15,8 @@ export function Repos() {
         <li>Recent</li>
         {repositories?.map((repo) => {
           return (
-            <li key={repo.full_name}>
-              <strong>{repo.full_name}</strong>
+            <li key={repo.name}>
+              <strong>{repo.name}</strong>
               {/* <p>{repo.description}</p> */}
             </li>
           );
