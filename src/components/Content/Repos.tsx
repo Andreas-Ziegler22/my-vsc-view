@@ -1,4 +1,5 @@
 import { useFetch } from "../../hooks/useFetch";
+import "./Article-left.css";
 
 type Repository = {
   name: string;
