@@ -1,5 +1,8 @@
 # my vscode view 
 
+
+![alt text](https://github.com/Andreas-Ziegler22/my-vsc-view/blob/master/src/assets/my-vscode.png "Project image")
+
 I got exipiration from another project 
 and I made this by my own 
 using react typescript and vite
